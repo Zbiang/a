@@ -19,4 +19,4 @@ def getBaseReturnValue(data,msg,code):
   return json_data
   
 if __name__ == '__main__':
-    app.run(host='0.0.0.0') #在服务器上运行
+    app.run(host='0.0.0.0', port=80) #在服务器上运行
